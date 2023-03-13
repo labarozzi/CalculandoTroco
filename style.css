@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(231, 222, 229);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #app {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #e6bcdf;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6bcdf;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgb(255, 70, 236);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: navy;
+    color: white;
+  }
+  
+  #troco {
+    margin-top: 20px;
+  }
